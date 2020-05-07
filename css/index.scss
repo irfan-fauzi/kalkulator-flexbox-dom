@@ -1,6 +1,132 @@
 main {
 
     display: flex;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+main {
+    width: 410px;
+    display: flex;
+    margin: 30px auto;
+    flex-direction: column;
+
+}
+
+
+.container1 {
+    height: 150px;
+    border: white solid 1px;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    background-color: black;
+
+    .display {
+        font-size: 30px;
+        padding: 0 20px;
+        align-content: center;
+        color: yellow;
+    }
+
+}
+
+.container2 {
+    border: white solid 1px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+
+    div {
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: rgb(19, 18, 18) solid 1px;
+        height: 100px;
+        width: 100px;
+        background-color: rgb(184, 187, 182);
+
+
+    }
+
+    #satu {
+        order: 1;
+
+    }
+
+    #dua {
+        order: 2;
+    }
+
+    #tiga {
+        order: 3;
+    }
+
+    #empat {
+        order: 5;
+    }
+
+    #lima {
+        order: 6;
+    }
+
+    #enam {
+        order: 7;
+    }
+
+    #tujuh {
+        order: 9;
+    }
+
+    #delapan {
+        order: 10;
+    }
+
+    #sembilan {
+        order: 11;
+    }
+
+    #kosong {
+        order: 14;
+    }
+
+
+    #bagi {
+        background-color: orange;
+        order: 4;
+    }
+
+    #tambah {
+        background-color: orange;
+        order: 12;
+    }
+
+    #kurang {
+        background-color: orange;
+        order: 8;
+    }
+
+    #ce {
+
+        order: 13;
+    }
+
+    #sama-dengan {
+        background-color: orange;
+        order: 15;
+        height: 100px;
+        width: 200px;
+
+    }
+
 
 
 }
