@@ -38,7 +38,7 @@ main {
 }
 
 .container1 .display {
-  font-size: 30px;
+  font-size: 40px;
   padding: 0 20px;
   -ms-flex-line-pack: center;
       align-content: center;
@@ -68,6 +68,7 @@ main {
   height: 100px;
   width: 100px;
   background-color: #b8bbb6;
+  cursor: pointer;
 }
 
 .container2 #satu {
